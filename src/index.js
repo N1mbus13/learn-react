@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Login from "./Login"// Import the Login component
+import Login from "./login-space"// Import the Login component
 import reportWebVitals from './reportWebVitals';
-
+import Snake from "./Snake"//
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login /> {/* Render the Login component */}
+    <Snake /> {/* Render the Login component */}
   </React.StrictMode>
 );
 
